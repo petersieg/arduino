@@ -1,0 +1,55 @@
+
+Kurze Info/ Pinout zur Graka V3:
+--------------------------------
+(Alle Angaben ohne jede Gewähr!)
+
+DIP Schalter (0=offen/off; 1=geschlossen/on):
+1-2-3-4-5-6-7-8  Baud
+0-0-0-0		19200
+1-0-0-0		 9600
+..
+1-0-1-0		 2400
+..
+0-1-0-1		  300
+..
+        5 ------ Parity (0=even/gerade; 1=odd/ungerade)
+          6 ---- 0=8 bit; 1=7 bit
+            7 -- 0=2 Stop bits; 1=1 Stop bit
+              8- 0=No parity/1=mit parity
+
+---
+
+Seriell Receive Umschaltung (Send autom. alle 3 parallel) neben CNY-17 die 3x2 Jumperbuchsen:
+(die gewählte überbrücken/stecken)
+
++-----+ 0 - 0 <-- TTL
+|CNY17| 0 - 0 <-- V24
++-----+ 0 - 0 <-- 20mA
+
+---
+
+2x10 pol Steckerleiste (oben rechts - wenn VG-Leiste links ist):
+
+   a-b
+ 1   b = Masse
+ 2	 (2a + 3a waren bei mir mit Jumper gebrückt=normaler Bildinhalt zum Videomixer)
+ 3	 (1a + 3a = invertierter Bildschirminhalt?)
+ 4   b = BAS Ausgang 1,5V
+..
+
+---
+
+2x5 pol Steckerleiste (unten rechts - wenn VG-Leiste links ist):
+   a-b
+11 a+b = Masse
+12 a b = a=Tx TTL; b=Rx TTL
+13 a b = a=Tx V24; b=Rx V24
+14 a b = a=Tx-20mA;b=Tx+20mA
+15 a b = a=Rx-20mA;b=Rx+20mA
+
+---
+
+Im Schaltplan ist ein AY 3-1015 Uart. Eingesetzt war bei mir ein wohl kompatibler COM 8017.
+Der IM6402 sollte ggf. auch noch passen.
+
+
