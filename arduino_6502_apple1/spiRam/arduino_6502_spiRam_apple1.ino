@@ -3,13 +3,15 @@
 // In real world apps, like mandel3.bas app. 10-20 times slower.
 // So it is at the etch to be usable.
 
+#define spiram
+#ifdef spiram
 #include <SPI.h>
 #define SS0 24  // I am using a MEGA2560
 #define MODE SPI_MODE0
 #define BAUD 20000000L
 #define FORMAT MSBFIRST
 #define CHIP 512
-
+#endif
 // 12.01.2015 (c) P.Sieg simple Apple 1 emulator based on arduino_6502 
 // project from miker00lz (Mike Chambers)
 // Link: http://forum.arduino.cc/index.php?topic=193216.0
@@ -56,6 +58,7 @@ extern "C" {
     Serial.print(val, HEX);
     Serial.println();
   }
+#ifdef spiram
   void initRAM( uint8_t csPin) {
     SPI.beginTransaction(SPISettings(BAUD, FORMAT, MODE));
     digitalWrite(csPin,LOW); // select SPI Ram
@@ -92,9 +95,11 @@ extern "C" {
     SPI.endTransaction();
     return result;
   }
+#endif
 }
 
 void setup () {
+#ifdef spiram
   // turn all CS pin off (high)
   digitalWrite(SS0,HIGH);
   // Drive CS pins
@@ -102,6 +107,7 @@ void setup () {
   // init SPI hardware
   SPI.begin();
   initRAM(SS0);
+#endif
   Serial.begin (9600);
   Serial.println("apple 1 emulator");
   Serial.println ();
