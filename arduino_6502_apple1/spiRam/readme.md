@@ -7,3 +7,6 @@
 // In real world apps, like mandel3.bas app. 10-20 times slower.
 
 // So it is at the etch to be usable.
+
+![sch](https://github.com/petersieg/arduino/blob/master/arduino_6502_apple1/spiRam/SCH%2023LC512.jpg)
+
