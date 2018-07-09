@@ -2,3 +2,4 @@
 
 https://hackaday.io/project/21561-arduino-mega-2560-32kb-ram-shield
 
+![top](https://github.com/petersieg/arduino/blob/master/arduino_6502_apple1/extRam/top.png)
