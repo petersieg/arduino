@@ -6,12 +6,15 @@ Eagle (+JLCPCB gerber) in 8xeep.zip file.
 
 pcb has errors! U7 has same address as U3. Footprint of smd IC's is too small (there are at least 2 footprints available for 24LC256 from Sparkfun. With some pin bending and difficult hand soldering, it can be used. 
 
-New pcb ordered as of August 2018.
-
 Free for personell use.
 
 eep.ino shows example code.
 
 ![pcb](https://github.com/petersieg/arduino/blob/master/arduino_6502_apple1/eeprom/8xeep.png)
+
+New pcb ordered as of August 2018. Files are in 8xeep-2.zip.
+
+![pcb](https://github.com/petersieg/arduino/blob/master/arduino_6502_apple1/eeprom/8xeep-2.png)
+
 
 
