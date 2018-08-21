@@ -16,5 +16,13 @@ New pcb ordered as of August 2018. Files are in 8xeep-2.zip.
 
 ![pcb](https://github.com/petersieg/arduino/blob/master/arduino_6502_apple1/eeprom/8xeep-2.png)
 
+New pcb has arrived and soldering is a LOT easier now. Tested with first 4 eeproms and works as expected.
+
+Picture of V1 and V2 for comparison:
+
+![V1+2](https://github.com/petersieg/arduino/blob/master/arduino_6502_apple1/eeprom/8xeep%20V1u2.JPG)
+
+
+
 
 
