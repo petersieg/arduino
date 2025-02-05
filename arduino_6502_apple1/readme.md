@@ -40,7 +40,7 @@ R<cr>
 ---
 
 D020:0 -> Basic (default)
-D020:1 -> Assembler
+D020:1 -> Assembler (WOZMON gets back to wozmon)
 
 E000
 R
