@@ -7,7 +7,7 @@
 // apple 1 roms are (c) Steve Wozniak / Apple Inc. Status is Freeware
 // according to: http://www.callapple.org/soft/ap1/emul.html
 // a1 assembler (c) 9/2006 San Bergmans released as freeware
-// Link: [http://www.sbprojects.net](https://www.sbprojects.net/projects/apple1/a1asm.php)
+// Link: https://www.sbprojects.net/projects/apple1/a1asm.php
 // My code released under GNU GPL V2
 
 apple 1 woz monitor short overview
