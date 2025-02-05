@@ -39,6 +39,14 @@ R<cr>
 
 ---
 
+D020:0 -> Basic (default)
+D020:1 -> Assembler
+
+E000
+R
+
+---
+
 woz monitor routines
 
 getline = FF1F
