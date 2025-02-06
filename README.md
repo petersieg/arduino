@@ -2,7 +2,12 @@
 
 Mainly my apple 1 emulator based on Mike Chambers 6502 emulation code.
 
-some others files:
+Links:
+
+https://wiki.reactivemicro.com/images/e/ec/LearnToProgramAnApple1.pdf
+
+
+### some others files:
 
 f-gen.zip - simple frequency generator; just arduino uno required - python tkinter gui on PC
 
