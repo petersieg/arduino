@@ -6,6 +6,8 @@ Links:
 
 https://wiki.reactivemicro.com/images/e/ec/LearnToProgramAnApple1.pdf
 
+https://bitsavers.trailing-edge.com/pdf/apple/apple_I/AppleI_BasicMan.pdf
+
 
 ### some others files:
 
