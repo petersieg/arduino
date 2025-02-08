@@ -8,7 +8,7 @@ https://wiki.reactivemicro.com/images/e/ec/LearnToProgramAnApple1.pdf
 
 https://bitsavers.trailing-edge.com/pdf/apple/apple_I/AppleI_BasicMan.pdf
 
-https://github.com/ebruchez/apple1-party/tree/main - tools and libs using cc65 tu build apps for apple 1
+https://github.com/ebruchez/apple1-party/tree/main - tools and libs using cc65 to build apps for apple 1
 
 https://github.com/petersieg/napple1 - nice apple 1 emulator using ncurses
 
