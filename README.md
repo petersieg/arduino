@@ -8,6 +8,10 @@ https://wiki.reactivemicro.com/images/e/ec/LearnToProgramAnApple1.pdf
 
 https://bitsavers.trailing-edge.com/pdf/apple/apple_I/AppleI_BasicMan.pdf
 
+https://github.com/ebruchez/apple1-party/tree/main
+
+https://github.com/petersieg/napple1
+
 
 ### some others files:
 
@@ -17,7 +21,7 @@ dramarduino.zip - 4164/41256 DRAM Tester with Arduino UNO
 
 pw_freqcnt.zip - frequency counter
 
-A1replica.zip - A1 replica gerber files
+A1replica.zip - Apple 1 replica gerber files
 
-pom1.zip - apple 1 emulator in java
+
 
