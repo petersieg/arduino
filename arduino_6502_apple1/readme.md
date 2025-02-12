@@ -48,6 +48,9 @@ R
 To get back from basic to wozmon:
 CALL -256
 
+To get back to basic from wozmon (warm start):
+E283R
+
 ---
 
 woz monitor routines
