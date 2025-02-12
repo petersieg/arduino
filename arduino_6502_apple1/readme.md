@@ -45,6 +45,9 @@ D020:1 -> Assembler (WOZMON gets back to wozmon)
 E000
 R
 
+To get back from basic to wozmon:
+CALL -256
+
 ---
 
 woz monitor routines
